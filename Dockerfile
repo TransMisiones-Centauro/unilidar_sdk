@@ -1,4 +1,4 @@
-FROM osrf/ros:foxy-desktop-focal
+FROM osrf/ros:humble-desktop-jammy
 
 RUN mkdir -p /ros2_ws/src
 WORKDIR /ros2_ws/src
